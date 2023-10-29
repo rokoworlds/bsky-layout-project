@@ -1,0 +1,24 @@
+/* Mobile */
+
+@media (width < 1230px) {
+
+.navigation {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    border-top: 1px solid var(--color-border);
+    background-color: var(--color-back-primary);
+}
+    
+/* Text */
+
+.navigation__text {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+}
+
+}

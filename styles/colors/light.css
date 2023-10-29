@@ -6,7 +6,11 @@
     
     --color-back-primary: var(--color-white);
     --color-back-secondary: var(--color-lighter);
+
     --color-text-primary: var(--color-black);
     --color-text-secondary: var(--color-darker);
+    
+    --color-border: var(--color-lighter);
+
     
 }
