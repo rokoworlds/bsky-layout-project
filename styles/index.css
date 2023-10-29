@@ -5,3 +5,7 @@
 /* Colors */
 
 @import url('colors/index.css');
+
+/* Page */
+
+@import url('blocks/page/index.css')
