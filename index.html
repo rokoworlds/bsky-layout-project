@@ -113,9 +113,23 @@
         </nav>
     </header>
     <main>
-        <img src="images/cover.png" width="300" height="100" alt="Profile cover">
-        <img src="images/avatar.png" width="80" height="80" alt="Profile avatar">
+        <div class="profile">
+            <img class="profile__cover" src="images/cover.png" width="300" height="100" alt="Profile cover">
+            <img class="profile__avatar" src="images/avatar.png" width="80" height="80" alt="Profile avatar">
+            <div class="profile__controls">
+                <button class="profile__button profile__button--text" type="button">
+                    Edit Profile
+                </button>
+        
+                <button class="profile__button profile__button--icon" type="button" aria-label="More">
+                    <svg class="profile__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="20" width="20">
+                        <path fill="currentColor" d="M8 256a56 56 0 1 1 112 0A56 56 0 1 1 8 256zm160 0a56 56 0 1 1 112 0 56 56 0 1 1 -112 0zm216-56a56 56 0 1 1 0 112 56 56 0 1 1 0-112z"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
 
+            
         <h1>Roman Koropat</h1>
         <p>@rokoworlds</p>
 

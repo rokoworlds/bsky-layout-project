@@ -4,6 +4,8 @@
     background-color: var(--color-back-primary);
     color: var(--color-text-primary);
     font-family: system-ui, sans-serif;
+    font-size: 15px;
+    line-height: 1.2;
 }
 
 /* Body */
