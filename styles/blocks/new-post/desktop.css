@@ -2,8 +2,8 @@
 
 @media (width >= 1230px) {
 
-.new-post {
-    background-color: var(--color-blue);
-}
-    
+    .new-post {
+        background-color: var(--color-blue);
+    }
+        
 }

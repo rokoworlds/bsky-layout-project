@@ -2,11 +2,11 @@
 
 @media (width < 1230px) {
 
-.back-button {
-    background-color: rgb(0 0 0 / 0.53);
-    color: var(--color-white);
-    backdrop-filter: blur(10px);
-    border-radius: 50%;
-}
+    .back-button {
+        background-color: rgb(var(--color-black) / 0.53);
+        color: rgb(var(--color-white));
+        backdrop-filter: blur(10px);
+        border-radius: 50%;
+    }
 
 }

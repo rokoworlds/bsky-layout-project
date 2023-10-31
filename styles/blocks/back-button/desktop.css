@@ -2,9 +2,9 @@
 
 @media (width >= 1230px) {
     
-.back-button {
-    position: absolute;
-    background-color: transparent;
-}
+    .back-button {
+        position: absolute;
+        background-color: transparent;
+    }
 
 }

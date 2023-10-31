@@ -2,10 +2,10 @@
 
 @media (width < 1230px) {
     
-.profile__back {
-    position: absolute;
-    top: 12px;
-    left: 12px;
-}
+    .profile__back {
+        position: absolute;
+        top: 12px;
+        left: 12px;
+    }
 
 }
