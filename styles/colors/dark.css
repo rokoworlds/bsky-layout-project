@@ -8,6 +8,8 @@
 
     --color-text-primary: rgb(var(--color-white));
     --color-text-secondary: rgb(var(--color-lighter));
+    --color-text-tertiary: rgb(var(--color-light));
+
 
     --color-border: rgb(var(--color-darker));
 

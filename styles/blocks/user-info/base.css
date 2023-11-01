@@ -1,0 +1,54 @@
+/* Base */
+
+.user-info {
+    padding: 12px;
+}
+
+/* Name */
+
+.user-info__name {
+    margin: 0;
+    font-weight: normal;
+    font-size: 34px;
+}
+
+/* Nick */
+
+.user-info__nick {
+    margin: 0;
+    color: var(--color-text-tertiary);
+}
+
+/* Stats */
+
+.user-info__stats {
+    list-style: none;
+    margin: 0;
+    padding: 8px 0;
+    display: flex;
+    gap: 10px;
+}
+
+/* Stats link */
+
+.user-info__stats-link {
+    text-decoration: none;
+    color: var(--color-text-tertiary);
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+/* Stats number */
+
+.user-info__stats-number {
+    font-weight: bold;
+    color: var(--color-text-primary);
+}
+
+/* Bio */
+
+.user-info__bio {
+    margin: 0;
+}

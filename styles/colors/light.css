@@ -9,6 +9,7 @@
 
     --color-text-primary: rgb(var(--color-black));
     --color-text-secondary: rgb(var(--color-darker));
+    --color-text-tertiary: rgb(var(--color-dark));
     
     --color-border: rgb(var(--color-lighter));
 

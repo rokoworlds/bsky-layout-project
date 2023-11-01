@@ -44,14 +44,15 @@
     border-radius: 50px;
     background-color: var(--color-back-secondary);
     font-family: inherit;
+    font-size: 14px;
 }
 
 .profile__button--text {
-    padding: 7px 24px;
+    padding: 9px 24px;
 }
 
 .profile__button--icon {
-    padding: 5px 12px;
+    padding: 7px 12px;
 }
 
 /* Icon */
