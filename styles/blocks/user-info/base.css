@@ -27,13 +27,15 @@
     padding: 8px 0;
     display: flex;
     gap: 10px;
+    color: var(--color-text-tertiary);
+
 }
 
 /* Stats link */
 
 .user-info__stats-link {
     text-decoration: none;
-    color: var(--color-text-tertiary);
+    color: inherit;
 
     &:hover {
         text-decoration: underline;

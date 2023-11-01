@@ -136,39 +136,116 @@
             <p class="user-info__nick">@rokoworlds</p>
     
             <ul class="user-info__stats">
-                <li class="user-info__stats-item">
+                <li>
                     <a class="user-info__stats-link" href="">
                        <span class="user-info__stats-number">18</span> followers
                     </a>
                 </li>
-                <li class="user-info__stats-item">
+                <li>
                     <a class="user-info__stats-link" href="">
                        <span class="user-info__stats-number">69</span> following
                     </a>
                 </li>
-                <li class="user-info__stats-item">
+                <li>
                     <span class="user-info__stats-number">5</span> posts
                 </li>
             </ul>
             <p class="user-info__bio">Frontend developer and fantasy writer</p>
         </div>
             
+        <div class="timeline" role="tablist">
+            <ul class="timeline__tabs">
+                <li class="timeline__tabs-item">
+                    <button 
+                        class="timeline__tabs-button"
+                        role="tab"
+                        aria-selected="true"
+                        aria-controls="timeline-posts-panel"
+                        id="timeline-posts-tab"
+                        type="button"
+                    >
+                    Posts
+                </button>
+                </li>
+                <li class="timeline__tabs-item">
+                    <button 
+                        class="timeline__tabs-button"
+                        role="tab"
+                        aria-selected="false"
+                        aria-controls="timeline-posts-replies-panel"
+                        id="timeline-posts-replies-tab"
+                        type="button"
+                    >
+                    Posts & replies
+                </button>
+                </li>
+                <li class="timeline__tabs-item">
+                    <button 
+                        class="timeline__tabs-button"
+                        role="tab"
+                        aria-selected="false"
+                        aria-controls="timeline-media-panel"
+                        id="timeline-media-tab"
+                        type="button"
+                    >
+                    Media
+                </button>
+                </li>
+                <li class="timeline__tabs-item">
+                    <button 
+                        class="timeline__tabs-button"
+                        role="tab"
+                        aria-selected="false"
+                        aria-controls="timeline-likes-panel"
+                        id="timeline-likes-tab"
+                        type="button"
+                    >
+                    Likes
+                </button>
+                </li>
+            </ul>
 
-        <ul>
-            <li><button>Posts</button></li>
-            <li><button>Posts & replies</button></li>
-            <li><button>Media</button></li>
-        </ul>
+            <section 
+                class="timeline__section"
+                role="tabpanel"
+                tabindex="0"
+                aria-labelledby="timeline-posts-tab"
+                id="timeline-posts-panel"
+                >
+                    <p>No posts yet!</p>
+            </section>
+            <section 
+                class="timeline__section"
+                role="tabpanel"
+                tabindex="0"
+                aria-labelledby="timeline-posts-replies-tab"
+                id="timeline-posts-replies-panel"
+                hidden
+                >
+                    <p>No posts & replies yet!</p>
+            </section>
+            <section 
+                class="timeline__section"
+                role="tabpanel"
+                tabindex="0"
+                aria-labelledby="timeline-media-tab"
+                id="timeline-media-panel"
+                hidden
+                >
+                    <p>No media yet!</p>
+            </section>
+            <section 
+                class="timeline__section"
+                role="tabpanel"
+                tabindex="0"
+                aria-labelledby="timeline-likes-tab"
+                id="timeline-likes-panel"
+                hidden
+                >
+                    <p>No likes yet!</p>
+            </section>
+        </div>
 
-        <section>
-            <p>No posts yet!</p>
-        </section>
-        <section hidden>
-            <p>No posts yet!</p>
-        </section>
-        <section hidden>
-            <p>No posts yet!</p>
-        </section>
     </main>
     <footer class="footer">
         <form class="footer__form" action="">
@@ -198,4 +275,5 @@
         </button>
     </footer>
 </body>
+<script type="module" src="/scripts/index.js"></script>
 </html>
