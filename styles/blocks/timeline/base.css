@@ -32,3 +32,17 @@
 .timeline__tabs-button[aria-selected='true'] {
     border-color: var(--color-text-primary);
 }
+
+/* Section */
+
+.timeline__section {
+    
+}
+
+/* No content */
+
+.timeline__no-content {
+    display: grid;
+    place-items: center;
+    padding: 40px 36px;
+}
