@@ -1,0 +1,8 @@
+/* Base */
+
+.search {
+    margin: 0;
+    padding: 0;
+    color: var(--color-text-primary);
+    
+}
