@@ -1,5 +1,27 @@
 /* Desktop */
 
 @media (width >= 1230px) {
-    
+
+    .navigation {
+
+    }
+
+    /* Item */
+
+    .navigation__item {
+        font-size: 20px;
+    }
+
+    /* Link */
+
+    .navigation__link {
+        display: flex;
+        gap: 10px;
+        padding: 12px;
+        border-radius: 8px;
+
+        &:hover {
+            background-color: var(--color-back-secondary);
+        }
+    }
 }
