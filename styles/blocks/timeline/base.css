@@ -1,9 +1,5 @@
 /* Base */
 
-.timeline {
-
-}
-
 /* Tabs */
 
 .timeline__tabs {
@@ -12,6 +8,13 @@
     list-style: none;
     display: flex;
     gap: 10px;
+    width: 100%;
+    overflow-x: auto;
+    scrollbar-color: transparent transparent;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
 
 }
 
@@ -22,6 +25,7 @@
     padding: 8px 10px 12px;
     border: none;
     border-bottom: 3px solid transparent;
+    white-space: nowrap;
     background-color: transparent;
     font-family: inherit;
     font-weight: bold;
@@ -33,16 +37,18 @@
     border-color: var(--color-text-primary);
 }
 
-/* Section */
-
-.timeline__section {
-    
-}
-
 /* No content */
 
 .timeline__no-content {
     display: grid;
+    row-gap: 20px;
     place-items: center;
     padding: 40px 36px;
+    color: rgb(var(--color-middle));
+}
+
+/* No content icon */
+
+.timeline__no-content-icon {
+    color: rgb(var(--color-light));
 }

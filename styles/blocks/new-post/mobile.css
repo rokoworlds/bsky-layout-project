@@ -13,8 +13,8 @@
         place-items: center;
         background-image: linear-gradient(
             136.8deg,
-            var(--color-sky),
-            var(--color-blue)
+            rgb(var(--color-sky)),
+            rgb(var(--color-blue))
         );
     }
 
