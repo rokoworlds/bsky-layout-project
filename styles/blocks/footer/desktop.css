@@ -11,6 +11,10 @@
         padding: 18px 9px;
     }
 
+    .footer__item--search {
+        padding: 0 0 18px;
+    }
+
     .footer__item + .footer__item {
         border-top: 1px solid var(--color-border);
     }

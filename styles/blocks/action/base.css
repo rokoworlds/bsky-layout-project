@@ -6,10 +6,13 @@
     border: 0;
     display: inline-flex;
     column-gap: 6px;
+    align-items: center;
     text-decoration: none;
     background-color: transparent;
     color: rgb(var(--color-blue));
     cursor: pointer;
+    font-family: inherit;
+    font-size: inherit;
 }
 
 .action--secondary {

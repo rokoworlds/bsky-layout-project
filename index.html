@@ -295,12 +295,21 @@
 
     </main>
     <footer class="footer">
-        <div class="footer__item">
-            <form class="footer__form" action="">
-                <label for="search">Search</label>
-                <input type="text" class="footer__search" placeholder="Search" inputmode="search" id="search">
+        <search class="footer__item footer__item--search">
+            <form class="search footer__form" action="">
+                <svg class="search__icon" viewBox="0 0 26 24" width="24" height="24" stroke-width="2" fill="none" stroke="currentColor" stroke-linecap="round">
+                    <ellipse cx="12" cy="11" rx="9" ry="9"/>
+                    <line x1="19" y1="17.3" x2="23.5" y2="21"/>
+                </svg>
+                <input 
+                    type="text" 
+                    class="search__input" 
+                    placeholder="Search" 
+                    inputmode="search"
+                    aria-label="Search"
+                    >
             </form>
-        </div>
+        </search>
 
         <div class="footer__item">
             <ul class="footer__options">
