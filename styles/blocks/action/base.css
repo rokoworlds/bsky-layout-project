@@ -1,0 +1,19 @@
+/* Base */
+
+.action {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    background-color: transparent;
+    color: rgb(var(--color-blue));
+    cursor: pointer;
+}
+
+.action--secondary {
+    color: var(--color-text-tertiary);
+}
+
+.action--hover:hover {
+    text-decoration: underline;
+}
