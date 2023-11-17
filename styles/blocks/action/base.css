@@ -4,6 +4,8 @@
     margin: 0;
     padding: 0;
     border: 0;
+    display: inline-flex;
+    column-gap: 6px;
     text-decoration: none;
     background-color: transparent;
     color: rgb(var(--color-blue));
@@ -16,4 +18,10 @@
 
 .action--hover:hover {
     text-decoration: underline;
+}
+
+/* Icon */
+
+.action__icon {
+    
 }
