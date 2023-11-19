@@ -12,7 +12,13 @@
     <header class="page__header">
         <nav>
             <a class="header__avatar" href="">
-                <img src="images/avatar.png" width="64" height="64" alt="Profile avatar">
+                <img 
+                    class="header__avatar-image" 
+                    src="images/avatar.png" 
+                    width="48" 
+                    height="48" 
+                    alt="Profile avatar"
+                >
             </a>
             <ul class="header__navigation navigation">
                 <li class="navigation__item">
@@ -72,7 +78,7 @@
                     </a>
                 </li>
                 <li class="navigation__item">
-                    <a class="navigation__link" href="">
+                    <a class="navigation__link" aria-current="page" href="">
                         <svg class="navigation__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" width="24" height="24" fill="currentColor" stroke="currentColor" stroke-width="2.04" stroke-linecap="round" stroke-linejoin="round">
                             <path d="M17.5 11.38a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Z"/>
                             <path d="M14 18.38c-4 0-6.33 2.33-7 3.5.83.83 3.4 2.5 7 2.5s6.17-1.67 7-2.5c-.67-1.17-3-3.5-7-3.5Z"/>
@@ -95,16 +101,18 @@
                     </a>
                 </li>
             </ul>
-            <button class="header__new-post new-post" type="button">
-                <svg class="new-post__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor">
-                    <path d="M 20 9 L 20 16 C 20 18.209 18.209 20 16 20 L 8 20 C 5.791 20 4 18.209 4 16 L 4 8 C 4 5.791 5.791 4 8 4 L 15 4" stroke-width="1.5"/>
-                    <line stroke-linecap="round" x1="10" y1="14" x2="18.5" y2="5.5" stroke-width="2.25"/>
-                    <line stroke-linecap="round" x1="20.5" y1="3.5" x2="21" y2="3" stroke-width="2.25"></line>
-                </svg>
-                <span class="new-post__text">
-                    New post
-                </span> 
-            </button>
+            <div class="header__new-post">
+                <button class="new-post" type="button">
+                    <svg class="new-post__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor">
+                        <path d="M 20 9 L 20 16 C 20 18.209 18.209 20 16 20 L 8 20 C 5.791 20 4 18.209 4 16 L 4 8 C 4 5.791 5.791 4 8 4 L 15 4" stroke-width="1.5"/>
+                        <line stroke-linecap="round" x1="10" y1="14" x2="18.5" y2="5.5" stroke-width="2.25"/>
+                        <line stroke-linecap="round" x1="20.5" y1="3.5" x2="21" y2="3" stroke-width="2.25"></line>
+                    </svg>
+                    <span class="new-post__text">
+                        New post
+                    </span> 
+                </button>
+            </div>
 
         </nav>
     </header>

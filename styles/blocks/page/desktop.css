@@ -17,6 +17,7 @@
 
     .page__header {
         justify-self: end;
+        width: 220px;
     }
 
     /* Footer */

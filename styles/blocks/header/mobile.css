@@ -8,6 +8,10 @@
         display: none;
     }
 
-
-
+    /* New post */
+    .header__new-post {
+        position: fixed;
+        bottom: 74px;
+        right: 24px;
+    }
 }

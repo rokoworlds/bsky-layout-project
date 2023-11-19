@@ -3,9 +3,6 @@
 @media (width < 1230px) {
     
     .new-post {
-        position: fixed;
-        bottom: 114px;
-        right: 24px;
         width: 60px;
         height: 60px;
         border-radius: 50%;
