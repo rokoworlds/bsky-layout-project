@@ -1,7 +1,14 @@
 /* Desktop */
 
 @media (width >= 1230px) {
-    .profile_back {
-        
+
+    .profile {
+        position: relative;
+    }
+
+    .profile__back {
+        position: absolute;
+        top: 20px;
+        left: -56px;
     }
 }
